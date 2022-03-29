@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.tablak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:119px;
+    border: 1px solid black;
+    justify-content: center;
+    flex: 0 0 12%;
+
+}
+#tarolo{
+    width: 65%;
+}
+#tabla{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 50%;
+}
